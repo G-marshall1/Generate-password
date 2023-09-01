@@ -1,4 +1,4 @@
-// Assignment Code
+// defined all possible charaters in the global scope for a password
 var lowerCase = "abcdefghijklmnopqrstuvwxyz";
 var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numbers = "0123456789";
@@ -8,6 +8,9 @@ var password = "";
 
 
 var generateBtn = document.querySelector("#generate");
+
+
+//need to add a confirm prompt to ask user if they want to use lower case, upper case, number, and special charater.
 
 
 // Write password to the #password input
