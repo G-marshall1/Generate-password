@@ -14,7 +14,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-image: linear-gradient(white, blue, green);
 }
 
 .wrapper {
@@ -28,10 +28,11 @@ header {
   padding: 20px;
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
+  visibility: hidden;
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-image: linear-gradient(white, blue,);
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
@@ -40,13 +41,14 @@ header {
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
+  text-align: center;
 }
 
 .card-header::after {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background-image: linear-gradient(white, blue,);
   height: 2px;
 }
 
@@ -62,7 +64,7 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background-image: linear-gradient(white, blue,);
   height: 2px;
 }
 
@@ -74,7 +76,7 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: hsl(159, 91%, 36%);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -90,7 +92,7 @@ header {
 
 button[disabled] {
   cursor: default;
-  background: #c0c7cf;
+  background-image: linear-gradient(white, blue,);
 }
 
 .float-right {
@@ -112,10 +114,11 @@ button[disabled] {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
+  background-image: linear-gradient(white, blue,);
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+  background-color: inherit;
 }
 
 @media (max-width: 690px) {
