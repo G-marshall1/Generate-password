@@ -123,7 +123,7 @@ function options() {
   return usersChoice;
 }
 
-//write the generate password math
+//write the generate password math.
 
 // Write password to the #password input
 function writePassword() {
