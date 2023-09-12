@@ -17,7 +17,7 @@
 
 ## Installation
 
-No installation needed since it is a landing page that can be viewed here 
+No installation needed since it is a landing page that can be viewed here https://g-marshall1.github.io/Generate-password/
 
 ## Usage
 -User can choose the length of the password between 8 and 128 characters.
